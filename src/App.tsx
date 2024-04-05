@@ -26,7 +26,14 @@ const App: React.FC = () => {
       <InvestmentProvider>
         <Router>
           <Routes>
-            <Route path="/auth" element={<AuthModule />} />
+            <Route
+              path="/"
+              element={
+                <ProtectedRoute>
+                  <InvestmentModule />
+                </ProtectedRoute>
+              }
+            />
             <Route
               path="/investment"
               element={
@@ -35,6 +42,7 @@ const App: React.FC = () => {
                 </ProtectedRoute>
               }
             />
+            <Route path="/auth" element={<AuthModule />} />
           </Routes>
         </Router>
       </InvestmentProvider>
