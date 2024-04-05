@@ -4,15 +4,18 @@ Challenge tecno
 
 ## Instala la app:
 
-```npm install
+```
+npm install
 ```
 
 ## Ejecuta la app:
 
-```npm run dev
+```
+npm run dev
 ```
 
 ## Ejecutar pruebas:
 
-```npm run test
+```
+npm run test
 ```
