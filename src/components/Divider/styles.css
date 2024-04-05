@@ -1,0 +1,13 @@
+.dotted-divider {
+  height: 1px;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    #949494 10%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: bottom;
+  background-size: 10px 1px;
+  background-repeat: repeat-x;
+  margin-bottom: 10px;
+}
